@@ -14,11 +14,11 @@ env_variables:
 #[END gae_flex_mysql_env]
 
 #[START gae_flex_mysql_settings]
-# Replace project and instance with the values obtained  when configuring your
+# Replace project and instance with the values obtained when configuring your
 # Cloud SQL instance.
 beta_settings:
     cloud_sql_instances: abiding-root-424509-c7:australia-southeast1:googleclouldsql
 #[END gae_flex_mysql_settings]
 
-automatic_scaling:
-  max_instances: 1
+manual_scaling:
+  instances: 1
